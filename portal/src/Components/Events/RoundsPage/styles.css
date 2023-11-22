@@ -1,0 +1,112 @@
+.roundHomeContainer
+{
+  margin: 30px;
+  height: max-content;
+}
+
+.profile
+{
+  display: flex;
+  gap: 3vw;
+  font-family: 'Chakra Petch';
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  margin-top: 5vh;
+  width: max-content;
+  height: max-content;
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.profileName
+{
+  font-size: 50px;
+}
+
+.profileID
+{
+  font-size: 20px;
+}
+
+.profileImage
+{
+  height: 100px;
+  width: 100px;
+}
+
+.roundCard {
+  border-radius: 10px;
+  /* background-color: rgb(255, 255, 255); */
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  font-size: 20px !important;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.roundCard > p {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.roundSubdetail
+{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-size: 15px;
+}
+
+.roundName
+{
+  font-size: 25px;
+}
+
+.roundDetails
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.roundDetails > p
+{
+  margin-bottom: 0px;
+}
+
+.roundCardContainer
+{
+  margin-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.roundVisible
+{
+  color: white;
+  font-size: 30px;
+  margin-top: 5vh;
+}
+
+.startRoundBtn
+{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 2px 15px 2px 15px;
+}
+
+.roundIcon
+{
+  height: 15px;
+}

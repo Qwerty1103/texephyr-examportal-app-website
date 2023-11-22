@@ -1,0 +1,17 @@
+.nav a
+{
+    color: white !important;
+    font-size: larger;
+}
+
+.nav-item :hover
+{
+    color: rgb(170, 168, 168) !important;
+}
+
+.nav
+{
+    height: 10vh;
+    align-items: center;
+    gap: 5vw;
+}

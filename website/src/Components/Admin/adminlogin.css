@@ -1,0 +1,70 @@
+section{
+    display:grid;
+    grid-template-columns: 51% 49%;
+}
+
+.adminLogContainer
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.admLogForm
+{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.admLogformInput
+{
+  font-family: 'Chakra Petch';
+  border-radius: 10px;
+  width: 20vw;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 7vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.admLogformInput::placeholder
+{
+  color: black;
+}
+
+textarea:focus, input:focus{
+  outline: black;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.admLogHead{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.79);
+}
+
+.lgn-btn{
+  width: 8vw;
+  height: 6vh;
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  border: none;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 9px;
+}

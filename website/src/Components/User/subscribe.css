@@ -1,0 +1,244 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+
+/* test */
+.footerChild {
+  position: absolute;
+  top: -13px;
+  left: 0;
+  background: linear-gradient(
+    90.05deg,
+    rgba(47, 76, 233, 0.39),
+    rgba(211, 71, 252, 0.39)
+  );
+  width: 1732px;
+  height: 222px;
+}
+.texephyr23 {
+  color: #6de9fa;
+}
+.copyright2023AllContainer {
+  position: absolute;
+  top: 425px;
+  left: 559px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.footerItem {
+  position: absolute;
+  top: 393.26px;
+  left: 204.75px;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  width: 1322.5px;
+  height: 0.5px;
+}
+.termCondition {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.privacyPolicy,
+.refundcancellationPolicy {
+  position: absolute;
+  top: 0;
+  left: 401px;
+  font-weight: 500;
+}
+.refundcancellationPolicy {
+  text-decoration: none;
+  left: 758px;
+  color: inherit;
+}
+.termConditionParent {
+  position: absolute;
+  top: 285px;
+  left: 282px;
+  width: 1168px;
+  height: 43px;
+  color: var(--color-fuchsia);
+}
+.registerChild {
+  cursor: pointer;
+  border: 1px solid var(--color-violet);
+  padding: 0;
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 28.5px;
+  left: 19.5px;
+  box-sizing: border-box;
+  width: 220px;
+  height: 76px;
+}
+.registerItem {
+  position: absolute;
+  top: 21px;
+  left: 9px;
+  width: 219px;
+  height: 75px;
+}
+.register1 {
+  position: absolute;
+  top: 42px;
+  left: 69px;
+  font-weight: 600;
+}
+.register {
+  position: absolute;
+  top: 56px;
+  left: 1309px;
+  width: 266px;
+  height: 119px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.getYourSeat {
+  position: absolute;
+  top: 90px;
+  left: 671px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.81);
+}
+.footer,
+.texephyrLogoFullSizeWh {
+  position: absolute;
+  overflow: hidden;
+}
+.texephyrLogoFullSizeWh {
+  top: 67px;
+  left: 84px;
+  width: 346.96px;
+  height: 90px;
+  object-fit: cover;
+}
+.footer {
+  top: 930px;
+  left: 0;
+  background-color: var(--color-black);
+  width: 1732px;
+  height: 497px;
+}
+.viewallChild,
+.viewallItem {
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+}
+.viewallChild {
+  border: 1px solid var(--color-violet);
+  background-color: var(--color-gray-100);
+  top: 17.5px;
+  left: 32.5px;
+  box-sizing: border-box;
+  width: 220px;
+  height: 76px;
+}
+.viewallItem {
+  border: 0;
+  background-color: transparent;
+  top: 12px;
+  left: 14px;
+  background: linear-gradient(93.98deg, #6de9fa, #2252ba);
+  width: 219px;
+  height: 75px;
+}
+.viewAll {
+  position: absolute;
+  top: 33px;
+  left: 78px;
+  font-weight: 600;
+}
+.viewall {
+  position: absolute;
+  top: 494px;
+  left: 752px;
+  width: 287px;
+  height: 111px;
+  overflow: hidden;
+  text-align: center;
+}
+.viewall:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.frameChild {
+  position: absolute;
+  top: 506px;
+  left: 76px;
+  background-color: #252525;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 642px;
+  height: 86px;
+}
+.subscribeToNewsletter,
+.subscribeToOur {
+  position: absolute;
+  left: 46px;
+  display: inline-block;
+}
+.subscribeToOur {
+  top: 364px;
+  font-size: 35px;
+  font-weight: 500;
+  width: 813px;
+}
+.subscribeToNewsletter {
+  top: 93px;
+  font-size: 94px;
+  width: 969px;
+}
+.dAbstractDesign6RemovebgPIcon,
+.dAbstractDesign6RemovebgPIcon1 {
+  position: absolute;
+  top: 9px;
+  left: 35px;
+  width: 703px;
+  height: 703px;
+  object-fit: cover;
+}
+.dAbstractDesign6RemovebgPIcon1 {
+  top: 0;
+  left: 32px;
+  width: 617px;
+  height: 617px;
+}
+.imgball {
+  position: absolute;
+  top: 0;
+  left: 926px;
+  width: 677px;
+  height: 669px;
+}
+.subscribe,
+.viewallParent {
+  background-color: var(--color-black);
+}
+.viewallParent {
+  position: absolute;
+  top: 72px;
+  left: 62px;
+  width: 1603px;
+  height: 669px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.subscribePage {
+  width: 100%;
+  height: 1482px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: rgba(255, 255, 255, 0.63);
+  font-family: var(--font-chakra-petch);
+  background-color: black;
+}

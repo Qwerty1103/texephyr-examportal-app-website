@@ -1,0 +1,275 @@
+/* test */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-container{
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+} 
+
+.eventSlider__container {
+  height: 100vh;
+  width: 100%;
+	z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-container{
+  margin-bottom: 1.5rem;
+}
+
+.eventSlider__container__heading {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.eventSlider__container__heading h1 {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.eventSlider__container__navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* width: 100%; */
+  /* flex-direction: row; */
+  margin: 0 0 1.5rem;
+  
+}
+
+.eventSlider__container__navLinks ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.eventSlider__container__navLinks li {
+  margin: 0 1.5rem;
+}
+
+.eventSlider__container__navLinks a {
+  position: relative;
+  text-decoration: none;
+
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #ffffff;
+  opacity: 0.6;
+  transition: 0.5s ease;
+}
+
+.eventSlider__container__navLinks a:hover {
+  opacity: 1;
+  font-size: 20px;
+  color: #fff;
+}
+
+.eventSlider__container__navLinks a::after{
+  content: "";
+  position: absolute;
+  background-color: rgb(198, 192, 192);
+  height: 2px;  
+  left: 0;
+  bottom: -7px;
+  transition: 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.eventSlider__container__navLinks a:hover::after {
+  width: 100%;
+  transform-origin: bottom left;
+}
+
+.eventSlider__container__botTitle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 18px auto;
+}
+
+.eventSlider__container__botTitle h1{
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 70px;
+    text-align: center;
+  
+    color: #ffffff;
+    z-index: 1;
+}
+
+.eventSlider__container__smallCarousel{
+    display: none;
+}
+
+.eventSlider__container__bigCarousel{
+  display: block;
+}
+
+.event-distance
+{
+  margin-top: -60px;
+}
+
+.CardContent
+{
+font-size: 22px;
+}
+
+.managecontent
+{
+  height:300px;
+}
+
+@media only screen and (max-width: 600px){
+  .eventSlider__container__heading h1,
+  .eventSlider__container__botTitle h1 {
+    font-size: 7vh;
+    line-height: 10vh;
+  }
+  .managecontent
+{
+  height:300px;
+  display: flex;
+  align-items: center;
+}
+
+  .event-distance
+{
+  margin-top: 3rem!important;
+}
+
+.CardContent
+{
+font-size: 20px;
+}
+
+
+  .eventSlider__container__navLinks{
+    display:none;
+  }
+
+  .eventSlider__container__heading,
+  .eventSlider__container__botTitle{
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+  .eventSlider__container {
+    height: 100vh;
+  }
+
+  .body-container
+  {
+    background: black;
+    height: 100vh;
+  }
+
+  .carousel-control-next-icon
+  {
+    display: none!important;
+  }
+
+  .carousel-control-prev-icon
+  {
+    display: none!important;
+  }
+}
+
+.joining-heading {
+  text-align: left; 
+  font-size: 64px; 
+  font-weight: bold; 
+  letter-spacing: 2px;; 
+  line-height: 1.5;
+  text-align: center;
+}
+
+.joining-section {
+  background-color: #000000;
+    display: block;
+    margin-top: 70px;
+    padding: 60px 0 90px 0;
+}
+
+
+.image-wrapper.bg-full {
+  background-image: linear-gradient(136.42deg, rgba(204, 29, 255, 0.75) 2.01%, rgba(52, 126, 255, 0.75) 101.57%);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll!important;
+}
+
+.e-section {
+  background-color: #000000 !important;
+  padding: 90px 0 90px 0;
+  display: block !important;
+  margin: 0;
+}
+
+.solid-duo.text-grape-fuchsia .fill-secondary {
+  fill: #f857a6;
+}
+
+.solid-duo.text-grape-fuchsia .fill-primary {
+  fill: #605dba;
+}
+
+.icon-svg.icon-svg-sm {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.py-14 {
+  padding-top: 4.5rem!important;
+  padding-bottom: 8.5rem!important;
+}
+
+.display-4 {
+  font-weight: bold;
+    font-size: 3.2rem;
+}
+
+.counter {
+  font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.counter-subtitle {
+  font-size: .85rem;
+}
+
+.lead {
+  font-size: 1.1rem !important;
+  line-height: 1.55;
+}
+
+.custom-body {
+  padding: 2rem 2rem 5rem !important;
+  color:rgb(0, 0, 0) !important;
+}

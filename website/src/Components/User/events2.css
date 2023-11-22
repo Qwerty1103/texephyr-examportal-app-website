@@ -1,0 +1,263 @@
+.eventsPage{
+    background-color: black;
+    height: fit-content;
+    color: white;
+    font-family: 'Chakra Petch';
+}
+
+.eventContent{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.eventHead
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.eventHeadContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 30vh;
+    justify-content: center;
+}
+
+.eventName
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.depts{
+    display: flex;
+    gap: 2vw;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.dept{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+    border: 2px solid blue;
+    background-color: black;
+    background-image: none;
+}
+
+.dept:focus
+{
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.event{
+    display: flex;
+    gap: 2vw;
+}
+
+.left > h1{
+    color: purple;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 10vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 35vw;
+}
+
+.eventHr{
+    width: 47vw;
+}
+
+.day
+{
+    font-size: 35px;
+}
+
+.eventsH1
+{
+    font-size: 50px;
+}
+
+.smolBtn
+{
+    font-size: 15px;
+    width: 8vw;
+    height: 5vh;
+}
+
+.eventCardDesc
+{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.eventMobile
+{
+    display: none;
+}
+
+.eventDates {
+    font-size: 18px;
+}
+
+.scrolling-events {
+    height: 800px; 
+    overflow-y: auto;
+}
+/* test */
+
+@media only screen and (max-width: 600px) 
+{
+    .ballpit-hiding
+    {
+        display: none!important;
+    }
+
+    .eventMobile
+    {
+        display: unset;
+    }
+
+    .eventNonMobile
+    {
+        display: none;
+    }
+
+    .eventName {
+        font-size: 2vh;
+    }
+
+    .eventHead
+    {
+        font-size: 5vh;
+        line-height: 7vh;
+        text-align: center;
+    }
+
+    .eventContent
+    {
+        margin: 15px;
+    }
+
+    .eventDates
+    {
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    .event
+    { 
+        width: 85vw;
+    }
+
+    .right
+    {
+        width: 75vw;
+    }
+
+    .eventHr{
+        width: 83vw;
+    }
+
+    .left   
+    {
+        justify-content: center;
+        width: 25vw;
+    }
+    
+    .eventHeadContainer
+    {
+        height: unset;
+    }
+
+    .responsiveBtn
+    {
+        display: block;
+        width: 25vw;
+    }
+
+    .eventContent {
+        align-items: center;
+    }
+
+    .eventsDesc {
+        width: unset!important;
+        overflow: scroll!important;
+    }
+
+    .eventDetailsContainer {
+        width: 80vw!important;
+        height: 45vh!important;
+        top: 0px;
+        left: 0px;
+        position: unset!important;
+        margin-top: 2vh;
+    }
+
+    .rectangle-137 {
+        position: unset!important;
+        width: 80vw!important;
+        height: 25vh!important;
+        left: 0vw!important;
+        top: 0vh!important;
+    }
+
+    .rectangle-136 {
+        display: none;
+    }
+
+    .eventDesc
+    {
+        width: 80vw;
+        height: 15vh!important;
+        text-align: center;
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        font-size: 18px!important;
+    }
+
+    .eventDescName {
+        margin-top: 15px!important;
+        margin-left: 0px!important;
+        text-align: center;
+    }
+
+    .addCart-btn
+    {
+        position: unset!important;
+    }
+    
+    .dept
+    {
+      width: 30vw!important;
+    }
+
+    .scrolling-events {
+        overflow-y: unset !important;
+        height: auto;
+    }
+}
+

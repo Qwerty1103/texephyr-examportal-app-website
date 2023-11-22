@@ -1,0 +1,214 @@
+.homeEventsPage{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Chakra Petch';
+    gap: 3vh;
+}
+
+.eventCardContainer{
+    display: flex;
+    gap: 70vh;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.eventCard{
+  position: relative;
+width: 300px;
+height: 45vh;
+left: 0px;
+top: 5vh;
+background: linear-gradient(151.1deg, #212121 1.73%, rgba(26, 26, 26, 0) 127.07%);
+border-radius: 38px;
+}
+
+.homeEventsPage > .container
+{
+  height: 70vh;
+}
+
+.homeEventsPage > .row
+{
+  height: 15vh;
+}
+  
+
+  .container .circle{
+    position: absolute;
+    top: 0%;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circle1
+{
+  background-image: url("../images/event1.jpg");
+  z-index: 1;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.circle2
+{
+  background-image: url("../images/event2.jpg");
+  z-index: 1;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.circle3  
+{
+  background-image: url("../images/event3.jpg");
+  z-index: 1;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  .eventcardheading
+  {
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 44px;
+text-align: center;
+
+color: #D347FC;
+  }
+.eventcardtagline
+{
+
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.eventcardcontent
+{
+    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: rgba(255, 255, 255, 0.78);
+
+}
+
+.eventcardtitle{
+height: 15vh;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 122px;
+text-align: center;
+padding-bottom: 0px;
+color: #FFFFFF;
+}
+
+.eventcardsubtitle{
+  height: 10vh;
+font-family: 'Chakra Petch';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 34px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.homeEventsPage > .km2{
+    width: 150px;
+    position: unset;
+}
+
+/* test */
+
+@media only screen and (max-width: 600px) 
+{
+    .homeEventsPage
+    {
+      height: max-content;
+    }
+
+    .homeEventsPage > .container
+    {
+      height: max-content;
+    }
+
+    .eventcardtitle
+    {
+      margin-top: 5vh;
+      font-size: 5vh;
+      line-height: 8vh;
+    }
+
+    .eventcardsubtitle
+    {
+      font-size: 2vh;
+    }
+
+    .col-3 {
+      width: unset!important;
+      align-items: center!important;
+      justify-content: center!important;
+      display: flex!important;
+    }
+
+    .row.justify-content-center.evContainer
+    {
+      gap: 10vh!important;
+      margin-top: 10px !important;
+    }
+
+    .eventCard
+    {
+      background: linear-gradient(142.4deg, #212121 100%, rgba(45, 45, 45, 0) 100.15%);
+    }
+
+    .justify-content-center {
+      justify-content: center!important;
+      margin-top: 10vh!important;
+    }
+
+    .padding-top-sm {
+      padding-top: 0px !important;
+    }
+}
+
+.events-section {
+    background-color: #000000;
+      display: block;
+      margin: 0;
+      padding: 0 0 90px 0;
+}
+
+.padding-top-sm {
+  padding-top: 100px;
+}

@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+/* test */
+.contactPage
+{
+  background-color: black;
+  height: max-content;
+}
+
+.contactUs__container {
+  overflow: hidden;
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  font-family: "Chakra Petch";
+  font-style: normal;
+}
+
+.contactUs__container__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+  padding-top: 3vh;
+  flex: 45%;
+}
+
+.contactUs__container__content {
+  display: flex;
+  flex-direction: column;
+  flex: 55%;
+}
+
+.contactUs__container__content-top {
+  background: url("../images/contact.png");
+  height: 52vh;
+  width: 100%;
+  gap: 2vh;
+  /* background-attachment: fixed; */
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+}
+
+.contactUs__container__content-top img {
+  max-height: 477.7px;
+  width: 95%;
+}
+
+.top-img
+{
+  display: none;
+}
+
+.contactUs__container__content-top h1 {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(5vh, 94px, 10vw);
+  line-height: 7.625rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contactUs__container__content-top h1:nth-of-type(2) {
+  top: 250px;
+  left: 380px;
+}
+
+.contactUs__container__content-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contactUs__container__content-bot {
+  padding: 0 2rem;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.438rem;
+  flex: 1;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+.contactUs__container__content-bot p {
+  margin-top: 0rem;
+  margin-left:1.5rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 1em 1.8em;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__ul {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer__ul li {
+  margin-right: 2rem;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.938rem;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__ul div:first-child {
+  height: 100%;
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+  padding-right: 5rem;
+  margin-right: 5rem;
+}
+
+.small-screen-footer{
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;  
+}
+
+.footer__overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--color-black);
+  transition: .5s ease;
+  flex-direction: column;
+  z-index: 5;
+}
+
+.footer__overlay ul {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.contact_p
+{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  .contactPage
+  {
+    height: max-content;
+  }
+
+  .contactUs__container
+  {
+    flex-direction: column-reverse;
+    height: max-content;
+    height: 180vh;
+  }
+
+  .footer__section
+  {
+    display: none;
+  }
+
+  .contactUs__container__content-top h1 {
+    position: unset;
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(5vh, 94px, 10vw);
+    line-height: 10vh;
+    text-align: center;
+    color: #ffffff;
+    font-size: 8vh;
+  }
+  
+  .contactUs__container__content-top h1:nth-of-type(2) {
+    top: 250px;
+    left: 380px;
+  }
+  
+  .contactUs__container__content-top
+  {
+    justify-content: center;
+    align-items: center;
+    gap: 0vh;
+    background-size: 130% 100%;
+  }
+
+  .contactUs__container__content-bot {
+    width: 90%;
+    padding: 0px;
+  }
+
+  .contactUs__container__content-bot p {
+    margin-left: 0px;
+    font-size: 2vh;
+  }
+
+  .contactUs__container__content {
+    align-items: center;
+    gap: 4vh;
+  }
+
+  #contact-form
+  {
+    gap: 5vh;
+  }
+}

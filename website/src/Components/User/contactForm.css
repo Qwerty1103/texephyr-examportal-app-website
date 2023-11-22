@@ -1,0 +1,139 @@
+/* test */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.i_text {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.contactForm__container {
+  max-height: 538px;
+  height: 100%;
+  width: 60%;
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    rgba(76, 175, 80, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 49, 1) 144%
+  );
+
+  padding: 2em 3em 3em;
+  border-bottom-right-radius: 50px;
+}
+
+.contactForm__container form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.contactForm__container-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contactForm__container-end {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+.contactForm__container-end button {
+  height: 50%;
+  width: 80%;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.938rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 777ms;
+  margin: 0 auto;
+}
+
+.contactForm__container-end button:hover {
+  color: #fff;
+  background: #15b07a;
+}
+
+#input {
+  height: 3rem;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+  margin-top: 2.5em;
+  padding-bottom: 0.5em;
+}
+
+.contactForm__container textarea {
+  background: transparent;
+  margin-top: 1.6em;
+  border: none;
+  resize: none;
+  outline: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+::placeholder,
+.contactForm__container label {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.938rem;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.contactForm__container label {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 430px) {
+  .i_text {
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+  .contactForm__container {
+    max-height: 400px;
+    width: 80%;
+  }
+
+  #input {
+    height: 10%;
+  }
+  #input::placeholder {
+    font-size: 1rem;
+  }
+
+  .contactForm__container label {
+    font-size: 1rem;
+  }
+
+  .contactForm__container-end button {
+    height: 100%;
+    font-size: 1rem;
+    margin-top: 1.8em;
+  }
+ 
+}

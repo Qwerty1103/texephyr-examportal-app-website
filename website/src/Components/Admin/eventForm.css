@@ -1,0 +1,100 @@
+.eventAdder__container__eventForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 500px;
+
+  padding: 2rem;
+  margin: 2rem auto;
+
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 24px;
+  opacity: 0.9;
+
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px 3px #3b3c3c;
+}
+
+.eventAdder__container__eventForm p {
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.eventAdder__container__eventForm input {
+  background: rgb(234, 229, 229);
+  opacity: 0.7;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.eventAdder__container__eventForm-groupA,
+.eventAdder__container__eventForm-groupC,
+.eventAdder__container__eventForm-imgUpload {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.eventAdder__container__eventForm-groupA input {
+  margin-top: 0.3rem;
+}
+
+.eventAdder__container__eventForm-groupB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.eventAdder__container__eventForm-groupB div {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+
+.eventAdder__container__eventForm-groupD {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+.eventAdder__container__eventForm-groupD div {
+  display: flex;
+  flex-direction: column;
+}
+
+.eventAdder__container__button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+.eventAdder__container__button button {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .eventAdder__container__button {
+    justify-content: center;
+  }
+  .eventAdder__container__eventForm-groupD {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}

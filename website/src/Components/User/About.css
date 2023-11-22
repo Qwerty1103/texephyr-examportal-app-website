@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+/* test */
+
+.aboutPage{
+    background-color: black;
+    text-align: center;
+    height: 90vh;
+}
+
+.upper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    gap: 3vh;
+}
+
+.lower
+{
+    display: flex;
+    height: 20vh;
+}
+
+.head{
+    width: 100%;    
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 4vh;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.line{
+    width: 100%;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.c2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.c3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+}
+
+.box{
+    width: 100%;
+    height: 25.3vh;
+    gap: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+}
+
+.num
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: #D347FC;
+    font-size: 10vh;
+}
+
+.text
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    font-size: 5vh;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .aboutPage
+    {
+        background-color: black;
+        height: max-content;
+    }
+
+    .upper
+    {
+        height: unset;
+    }
+
+    .head
+    {
+        padding-top: 20px;
+        font-size: 8vh;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 2vh;
+        width: 90vw;
+    }
+
+    .box
+    {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    .num
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+
+    text-align: center;
+
+    color: #D347FC;
+    font-size: 8vh;
+}
+
+.text
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    font-size: 3vh;
+}
+}

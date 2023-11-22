@@ -1,0 +1,92 @@
+body,
+html,
+#root,
+#ModelBuilderMainContainer,
+#mainModelBuilderContainer {
+  height: 100%;
+}
+.questionContainer {
+  border: 2px solid black;
+  margin: 2rem;
+  padding: 1.4rem;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  border-radius: 1vw;
+  margin-top: 5rem;
+  background-color: #e8efff;
+ 
+  width: 80%;
+  font-size: 24px;
+  color: #3F4756;
+  font-family: "Chakra Petch", sans-serif;
+
+
+  position: fixed;
+  top: 115px;
+}
+
+
+
+#mainTimerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Timer-SubContainer {
+  border: 2px solid black;
+  padding: 1vw;
+  border-radius: 0.2vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.bridgeElements {
+  border: 2px solid black;
+  padding: 1vw;
+}
+
+.bridgeElements:hover {
+  cursor: pointer;
+}
+
+.button-6 {
+  color: #fff;
+  background-color: #001232;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+  transition: all 250ms;
+  margin-top: 1.2rem;
+  margin-right: 1rem;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.positioning {
+  position: absolute;
+  top: 680px;
+  left: 5;
+}

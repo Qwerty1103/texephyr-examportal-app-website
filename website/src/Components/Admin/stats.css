@@ -1,0 +1,82 @@
+.statsCard
+{
+    background: hsl(0, 0%, 100%);
+    width: 98vw;
+    border-radius: 10px;
+    font-family: 'Chakra Petch';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    justify-content: space-between;
+    gap: 1vh;
+}
+
+.singlePlayer
+{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    align-items: center;
+}
+
+.statsContainer a
+{
+    color: black;
+    font-size: 20px;
+}
+
+.statsContainer
+{
+    background: beige;
+    height: max-content;
+    justify-content: center;
+    padding: 1vw;
+}
+
+.dropDown
+{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statsCardContainer
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    gap: 2vh;
+}
+
+.playerTableCol
+{
+    width: 20vw;
+}
+
+.viewProofBtn
+{
+    background: #D347FC;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.viewProofBtnCol
+{
+    width: max-content;
+}
+
+.idCol
+{
+    width: 5vw;
+}
+
+.phoneCol{
+    width: 8vw;
+}

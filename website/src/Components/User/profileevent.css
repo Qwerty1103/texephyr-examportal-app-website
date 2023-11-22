@@ -1,0 +1,120 @@
+.containerProfileEvent {
+  width: 100%;
+  /* padding: 2em 5em; */
+  margin-bottom: 2em;
+}
+/* test */
+.containerTopProfileEvent{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%; /* 60% of container */
+  padding-right: 0.5em;
+  gap: 5vw;
+}
+
+.containerTopProfileEvent h1 {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.063rem;
+  line-height: 2.68rem;
+
+  color: #d347fc;
+}
+
+.container__subheading {
+  margin-bottom: 1.2em;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.188rem;
+
+  display: flex;
+  gap: 0.9em;
+  list-style: none;
+
+  color: rgba(255, 255, 255, 0.63);
+}
+
+.container__p {
+  width: 63%;
+
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.23rem;
+  line-height: 1.5rem;
+
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.teamIcon
+{
+  height: 30px;
+  width: 30px;
+}
+
+.showTeamIcon
+{
+  display: block;
+}
+
+.hideTeamIcon
+{
+  display: none;
+}
+
+
+@media only screen and (max-width: 426px){
+  .containerTopProfileEvent h1 {
+    
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2rem;
+  
+  }
+
+  .containerTopProfileEvent {
+    width: 90%;
+    padding: 0;
+  }
+  
+.containerProfileEvent > p{
+ 
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.2rem;
+
+}
+
+.containerTopProfileEvent button {
+
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: none;
+
+  
+}
+
+.container__subheading {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+}
+
+
+@media only screen and (max-width: 769px){
+  p{
+    font-size: .8rem;
+  }
+
+  .container__top button{
+    font-size: .9rem;
+  }
+}

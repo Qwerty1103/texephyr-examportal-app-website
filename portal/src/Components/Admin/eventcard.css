@@ -1,0 +1,18 @@
+#eventImage
+{
+    height: 25vh;
+    width: 20vw;
+}
+
+.card-content-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.card-content
+{
+    width: 10vw;
+}

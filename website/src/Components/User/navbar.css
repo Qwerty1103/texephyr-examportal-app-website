@@ -1,0 +1,171 @@
+nav {
+    background: #111111;
+    font-family: "Chakra Petch";
+    font-size: 25px;
+}
+
+.navLogo {
+    height: 5vh;
+    width: 10vw;
+}
+
+/* test */
+.navText {
+    color: white;
+}
+
+.navText:hover {
+    color: rgb(115, 115, 115);
+}
+
+.navText:focus {
+    color: rgba(211, 71, 252, 1);
+
+}
+
+.profileImage {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.cartIcon {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.visible {
+    display: block !important;
+}
+
+.notVisible {
+    display: none !important;
+}
+
+.navLoginBtn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navLoginBtn:hover {
+    background-color: rgb(179, 180, 182);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.logoutBtn
+{
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navLogo {
+        height: 10vh;
+        width: 30vw;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none!important;
+        box-shadow: none!important;
+        box-shadow: none!important;
+    }
+
+    .navIcons
+    {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .mobileNav
+    {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2vh;
+    }
+
+    .navIcon
+    {
+        margin-right: 0px!important;
+    }
+
+    .profileImage {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .cartIcon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .navlink-a.padding-right-40 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .nav-link.navText.navlink-a {
+        padding-left: 0px !important;
+    }
+
+    .nav-link.navText.navlink-a.navlink-a-playnow {
+        padding-left: 60px !important;
+        display: inline-block !important;
+    }
+    /* #navbarSupportedContent {
+        text-align: left !important;
+    } */
+
+    .navbar-nav {
+        background-color: #111111;
+    }
+}
+
+.navlink-li {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    float: left;
+    display: inline;
+    list-style: none;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navlink-a {
+    display: inline-block;
+    padding: 15px 0px 15px 40px !important;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    font-family: 'Chakra Petch';
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.navlink-a-playnow {
+    background-image: url('../images/play_game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 60px !important;
+    font-size: 16px;
+    margin: 5px 0 0 0px;
+}
+
+.padding-right-40 {
+    padding-right:40px !important;
+}
+

@@ -1,0 +1,93 @@
+.instructionsPage
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Chakra Petch';
+}
+
+.instructionsPageContainer
+{
+    background: -webkit-linear-gradient(360deg,#00537E 10%,#3AA17E 360%); 
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    overflow: hidden!important;
+    height: 100%!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.instructionHeading
+{
+    font-size: 50px;
+}
+
+.instructionsPageLeft
+{
+    border-radius: 10px;
+    height: 85vh;
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 50vw;
+}
+
+.instructionsPageRight
+{
+    width: 35vw;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instructionsBtn
+{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(205, 5, 205);
+    color: white;
+}
+
+.instructionsBtn:disabled,
+.instructionsBtn[disabled]{
+  background-color: #cacaca;
+  color: #000000;
+}
+
+.instructionRules
+{
+    margin-top: 15px;
+    height: 50vh;
+    overflow-x: hidden;;
+    overflow-y: scroll;
+}
+
+.instructionRules::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	background-color: #ffffff;
+}
+
+.instructionRules::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #000000;
+}
+
+.instructionRules::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
+.instructionRoundName
+{
+    font-size: 40px;
+}

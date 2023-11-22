@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Poppins:ital,wght@1,300&display=swap");
+
+.ID_text {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ID_text::placeholder {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.IDForm__container {
+  max-height: 538px;
+  /* max-width: 500px; */
+  height: 100%;
+  /* width: 50%; */
+  background: rgb(37,35,36);
+  background: radial-gradient(circle, rgba(37,35,36,1) 0%, rgba(0,0,0,1) 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  padding: 4vh;
+  border-radius: 20px;
+}
+
+.IDForm__container > h1 {
+  font-size: 4vh;
+  text-align: center;
+}
+
+.rodal-close {
+  top: 4vh;
+  right: 2vw;
+}
+
+.rodal-close:before, .rodal-close:after {
+  background: white;
+}
+/* test */
+.IDForm__container form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.IDFormSubmit[disabled], .IDFormSubmit[disabled]:hover, .IDFormSubmit[disabled]:focus, .IDFormSubmit[disabled]:active
+{
+  background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(19, 1, 1, 0.3))!important;
+    color: -internal-light-dark(rgba(16, 16, 16, 0.3), rgba(255, 255, 255, 0.3))!important;
+    border-color: -internal-light-dark(rgba(118, 118, 118, 0.3), rgba(195, 195, 195, 0.3))!important;
+}
+
+.IDForm__container-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.IDForm__container-end {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 3vh;
+  align-items: center;
+}
+
+.IDForm__container-end button {
+  height: 30%;
+  width: 50%;
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.938rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 777ms;
+  display: block!important;
+}
+
+#ID_input {
+  height: 3rem;
+  width: 100%;
+  color: black;
+  background: white;
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+
+::placeholder,
+.IDForm__container label {
+  font-family: "Chakra Petch";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.938rem;
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.IDForm__container label {
+  margin-top: 2rem;
+}
+
+.inputgrp
+{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  
+}
+
+.inputGrpLeft
+{
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.checkBtn
+{
+  padding: 1vh!important;
+  border: none!important;
+  border-radius: 5px!important;
+  background-color: rgb(167, 50, 200)!important;
+  color: white!important;
+}
+
+.formMessage
+{
+  text-align: center;
+}
+
+.preDone
+{
+  color: red;
+}
+
+.done
+{
+  color: green;
+}
+
+.approvedImage
+{
+  position: absolute;
+  height: 5vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .disclaimer
+  {
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+
+  .ID_text {
+    font-size: 0.9rem;
+    font-weight: 100;
+  }
+  .IDForm__container {
+    /* max-height: 400px; */
+    width: unset;
+    height: unset;
+  }
+
+  #ID_input {
+    height: 10%;
+  }
+  #ID_input::placeholder {
+    font-size: 1rem;
+  }
+
+  .IDForm__container label {
+    font-size: 1rem;
+  }
+
+  .IDForm__container-end button {
+    height: 100%;
+    font-size: 1rem;
+    margin-top: 2vh;
+    display: block!important;
+  }
+
+  .IDForm__container-end {
+    gap: 0vh;
+    margin-top: 4vh;
+  }
+
+  .rodal-dialog, .rodal-zoom-enter
+  {
+    width: unset!important;
+  }
+
+  .rodal-close {
+    right: 7vw;
+  }
+}

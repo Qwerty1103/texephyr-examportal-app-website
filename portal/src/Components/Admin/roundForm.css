@@ -1,0 +1,79 @@
+.roundAdder__container__roundForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 500px;
+
+  padding: 2rem;
+  margin: 2rem auto;
+
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 24px;
+  opacity: 0.9;
+
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px 3px #3b3c3c;
+}
+
+.roundAdder__container_.roundForm p {
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.roundAdder__container_.roundForm input {
+  background: rgb(234, 229, 229);
+  opacity: 0.7;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.roundAdder__container_.roundForm-groupA,
+.roundAdder__container_.roundForm-groupB,
+.roundAdder__container_.roundForm-groupC{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.roundAdder__container_.roundForm-groupA input {
+  margin-top: 0.3rem;
+}
+
+.roundAdder__container_.roundForm-groupD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.roundAdder__container_.roundForm-groupD div {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+}
+
+.roundAdder__container__button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+.roundAdder__container__button button {
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .roundAdder__container__button {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+* {
+  box-sizing: border-box;
+  
+}
+
+.carousel__container {
+  width: 45vw;
+  height: 53vh;
+  position: static;
+  display: flex;
+
+  justify-content: center;
+  padding: 1.6em;
+
+  align-items: center;
+  background: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel__container__content {
+  width: 33vw;
+  height: 35vh;
+
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  flex-direction: column;
+
+  backdrop-filter: blur(18px);
+  box-shadow: 1px 1px 70px 1px rgb(45, 44, 44);
+
+  color: #fff;
+}
+/* test */
+
+
+
+.carousel__container__content h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 51px;
+}
+
+.carousel__container__content p {
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 600px){
+
+  .carousel__container {
+    width: 90vw!important;
+    height: 60vh!important;
+    border-radius: 20px;
+  }
+
+  .carousel-item
+  {
+    /* display: flex!important; */
+    margin: auto;
+    width: 100vw!important;
+    justify-content: center;
+  }
+
+  .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex!important;
+  }
+
+  .carousel__container__content {
+    width: unset!important;
+    height: 50vh!important;
+  }
+
+}
+
+

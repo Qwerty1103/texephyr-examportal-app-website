@@ -1,0 +1,103 @@
+
+
+/* test */
+
+.BackgroundVideo
+{
+    height: 90vh!important;
+    width: 100%!important;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.heroSection
+{
+    height: 90vh;
+    overflow: hidden;
+    display: none;
+}
+
+.heroText
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    gap: 5vh;
+    margin-top: 55vh;
+    color: white;
+    font-family: 'Chakra Petch';
+    font-size: 25px;
+}
+
+.part2
+{
+    font-size: 10vh;
+    font-weight: 700;
+}
+
+.sponsorsize
+{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px)
+{
+
+    .heroSection
+    {
+        height: 50vh;
+        display: block;
+    }
+
+    .sponsorsize
+{
+    font-size: 24px!important;
+}
+
+    .heroPage
+    {
+        display: none;
+    }
+    
+    .heroText {
+        align-items: center;
+        justify-content: center;
+        font-size: 2vh;
+        margin-top: 35vh;
+        gap: 0vh;
+    }
+
+    .part2
+    {
+        font-size: 5vh;
+        font-weight: 700;
+    }
+
+    .part3
+    {
+        text-align: center;
+    }
+
+    .BackgroundVideo
+    {
+        height: 50vh!important;
+    }
+
+    .contentStack {
+        width: 100% !important;
+    }
+}
+
+
+.contentStack {
+    width: 100%;
+}
+
+/* test */

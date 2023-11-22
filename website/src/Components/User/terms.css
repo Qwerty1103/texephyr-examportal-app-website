@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+.terms__container{
+  display: flex;
+  color:white;
+  font-family: 'Chakra Petch';
+  flex-direction: column;
+  line-height: 3vh;
+}
+
+.perSection
+{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+section{
+  display: unset;
+  margin: 2vw;
+  margin-bottom: 1vh;
+}
+
+.terms__heading{
+  color: #D347FC;
+  font-size: 3.5vh;
+}
+
+.terms__center {
+  text-align: center;
+}

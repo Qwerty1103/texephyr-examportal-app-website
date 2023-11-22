@@ -1,0 +1,179 @@
+.mainFooter {
+    position: relative;
+	bottom: 0px !important;
+	border: none;
+    background: #111111;
+    padding: 4rem 2rem 3rem;
+	}
+
+	.mainFooter h3, .de_light .mainFooter h3 {
+	color:#fff;
+	font-size: 20px;
+	}
+
+	.mainFooter a {
+	color: #ccc;
+	text-decoration:none !important;
+	}
+
+	.mainFooter a:visited {
+	color: #ccc;
+	}
+
+	.mainFooter.light{
+		color:#606060;
+		background:#fff;
+	}
+
+	.mainFooter.light .subfooter{
+	background:#f8f8f8;
+	}
+
+	.mainFooter.light a{
+		color:#606060 !important;
+		text-decoration:none;
+	}
+
+	.de-navbar-left footer{
+	padding:70px 70px 0 70px;
+	}
+
+	.subfooter{
+	background:#0b0b0b;
+	padding:30px 0 20px 0;
+	}
+
+	.subfooter.light{
+		border-top:solid 1px #ddd;
+		background:#fff;
+	}
+
+	.custom-logo {
+		width: 80% !important;
+	}
+
+	.custom-footer {
+		height: 40vh !important;
+	}
+
+	.de-navbar-left footer.light .subfooter{
+	background:none;
+	}
+
+	.de-navbar-left .subfooter{
+	background:none;
+	}
+
+	header.side-header{
+	border-bottom:none !important;
+	margin:0;
+	}
+
+	header.side-header .social-icons-2{
+	margin:0 auto;
+	margin-top:50px !important;
+	float:none;
+	text-align:center;
+	}
+
+	header.side-header .social-icons-2 a{
+	display:inline-block;
+	margin:0 2px 0 2px;
+	background:#555;
+	width:36px;
+	height:36px;
+	padding-top:5px;
+	display:inline-block;
+	text-align:center;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	opacity:.2;
+	}
+
+	.de_light header.side-header .social-icons-2 a{
+	background:#fff;
+	color:#333;
+	}
+
+	header.side-header .social-icons-2 a:hover{
+	opacity:1;
+	}
+
+	.de-navbar-left.de_light header, .de-navbar-left.de_light{background:#f9f9f9;}
+
+	header.header-mobile{
+	position:relative;
+	background:#111;
+	z-index:1000;
+	}
+
+	header.header-mobile.header-light{
+	background:#fff;
+	}
+
+	header.smaller.header-scroll:not(.autoshow){
+	position:absolute;
+	}
+	/* test */
+	.header-bottom .info{
+	display:none !important;
+	}
+
+	#de-sidebar{
+	position:absolute;
+	}
+
+    .footerText
+    {
+        color: white;
+        font-family: "Chakra Petch";
+		font-size: 14px;
+    }
+
+    .mainFooter a:link, .mainFooter a:visited
+    {
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(211, 71, 252, 1);
+    }
+
+@media only screen and (max-width: 600px)
+{
+	.mainFooter
+	{
+		/* display: none; */
+		background: #111;
+	}
+
+	.col-3 {
+		width: 100%!important;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+
+	.col-7 {
+		width: 100% !important;
+	}
+
+	.socialLogos {
+		width: 100%!important;
+		justify-content: center!important;
+	}
+
+	.cpyrght
+	{
+		margin-top: 0vh!important;
+	}
+
+	.logoNlinks
+	{
+		gap: 4vh;
+	}
+
+	.footerContainer
+	{
+		margin-top: 2vh;
+	}
+}

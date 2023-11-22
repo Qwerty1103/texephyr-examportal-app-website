@@ -1,0 +1,181 @@
+.hitContainer
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#050508;
+    font-family: 'Chakra Petch', sans-serif;
+    overflow-y: auto;
+}
+
+
+.ctr
+{
+    position: absolute;
+    bottom:10%;
+    left:0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.raw
+{
+    display: flex;
+    justify-content: center;
+}
+
+.key
+{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    border: 2px solid #ffffff;
+    background: #ffffff44;
+}
+
+.large
+{
+    width: 144px;
+}
+
+.active1
+{
+    background: #ffffff99;
+}
+
+.interface
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.time
+{
+    position: absolute;
+    top:15%;
+    left:0;
+    width: 20%;
+    color:#ffffff;
+    font-size: 6vh;
+    background:transparent;
+    padding-top: 5px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.time::selection
+{
+    display: none;
+}
+
+.timeCount::selection
+{
+    display: none;
+}
+
+.time1
+{
+    position: absolute;
+    top:25%;
+    left:0;
+    width: 20%;
+    color:#ffffff;
+    font-size: 6vh;
+    background:transparent;
+    padding-top: 5px;
+    text-align: center;
+    pointer-events: none;
+}
+
+
+
+.restart
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:40%;
+    left:0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 80px;
+    background:transparent;
+    padding-top: 10px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+.label > div
+{
+    font-family: Arial, Helvetica;
+    position: absolute;
+    background: #00000088;
+    color: white;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 30px;
+    user-select: none;
+}
+.effect
+{
+    -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+    0% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+    50% { background-color: transparent; -webkit-box-shadow: inset 0 0 40px #8343d2; }
+    100% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+    50% { background-color: transparent; -webkit-box-shadow: inset 0 0 40px #8343d2; }
+    100% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+    50% { background-color: transparent; -webkit-box-shadow: inset 0 0 40px #8343d2; }
+    100% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+    50% { background-color: transparent; -webkit-box-shadow: inset 0 0 500px #8343d2; }
+    100% { background-color: transparent; -webkit-box-shadow: inset 0 0 3px #6800E7; }
+  }
+
+  .canvas-box div div {
+    height: 60vh !important;
+  }
+
+  .mobile-sm h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #eee;
+    letter-spacing: 5px;
+  }
+  
+  
+  @media only screen and (max-width: 1024px) {
+    .hitContainer {
+      display: none !important;
+    }
+  
+    .mobile-sm {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  }

@@ -1,0 +1,94 @@
+.banner-section {
+    background-color: #000000;
+    display: block;
+    margin: 0;
+    padding: 310px 0 190px 0;
+    background-image: linear-gradient(
+        to top,
+        transparent,
+        hsla(0, 0%, 0%, 0.918)
+      ),linear-gradient(
+        to bottom,
+        transparent,
+        hsla(0, 0%, 0%, 0.918)
+      ),url('../images/game-section.png');
+      background-size: cover;
+      background-position: center center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+.banner-btn , .banner-btn:visited, .banner-btn:hover, .banner-btn:active {
+    background-image: linear-gradient(
+        to top right,
+        transparent,
+        #00000020
+      ),linear-gradient(
+        to bottom left,
+        transparent,
+        #00000024
+      ),url('../images/play_game.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: inline-block;
+    width: 23rem;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    font-size: 24px;
+    font-family: 'Chakra Petch';
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+    letter-spacing: 8px;
+    line-height: 1.7;
+    border-radius: 0.5rem;
+    text-decoration: none !important;
+    font-style: italic;
+}
+
+.effect-btn
+{
+    -webkit-animation: glowings 3500ms infinite;
+  -moz-animation: glowings 3500ms infinite;
+  -o-animation: glowings 3500ms infinite;
+  animation: glowings 3500ms infinite;
+}
+@-webkit-keyframes glowings {
+    0% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #ee2147; }
+      50% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #8a39ed; }
+      100% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #0cce8b; }
+  }
+  
+  @-moz-keyframes glowings {
+    0% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #ee2147; }
+      50% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #8a39ed; }
+      100% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #0cce8b; }
+  }
+  
+  @-o-keyframes glowings {
+    0% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #ee2147; }
+    50% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #8a39ed; }
+    100% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #0cce8b; }
+  }
+  
+  @keyframes glowings {
+      0% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #ee2147; }
+      50% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #8a39ed; }
+      100% { background-color: transparent; -webkit-box-shadow: 0 0 80px 20px #0cce8b; }
+  }
+
+@media only screen and (max-width: 600px) 
+{
+    .banner-btn , .banner-btn:visited, .banner-btn:hover, .banner-btn:active {
+        width: 20rem;
+        font-size: 18px;
+    }
+
+    .banner-section {
+        padding-top: 250px;
+        padding-bottom: 250px;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+    }
+}

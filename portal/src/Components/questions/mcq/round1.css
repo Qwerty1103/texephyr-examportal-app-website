@@ -1,0 +1,81 @@
+.mcqSubmitButton {
+    position: relative;
+    background: #fe2525;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    /* padding: 1rem 3rem; */
+    padding: 12px;
+    transition: 0.2s;
+    align-self: center;
+    margin: 15px;
+    border-radius: 10px;
+  }
+  
+  .mcqSubmitButton span {
+    position: relative;
+    z-index: 1;
+  }
+  .mcqSubmitButton i {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+  
+  .mcqSubmitButton:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+  }
+  
+  .mcqSubmitButton:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes box {
+    0% {
+      box-shadow: #27272c;
+    }
+    50% {
+      box-shadow: 0 0 25px #ff0000;
+    }
+    100% {
+      box-shadow: #27272c;
+    }
+  }
+
+  #mainQuestionCounter{
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+  }
+
+
+  #MCQModelBuilderContainer{
+    width: 70%;
+    align-self: center;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(203, 201, 201));
+    height: 70vh;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: "chakra petch";
+    font-size: 20px;
+  }

@@ -1,0 +1,15 @@
+{
+  "short_name": "Texephyr Website",
+  "name": "Official Website of Texephyr",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "2666x1974"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

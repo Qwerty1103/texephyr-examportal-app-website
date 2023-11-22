@@ -1,0 +1,21 @@
+.container{
+    color: white;
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+
+
+    color: #FFFFFF;
+    font-size: 3vh;
+}
+
+.container > h2{
+    padding: 30px;
+    text-align: center;
+    color: purple;
+    font-size: 8vh;
+}
+
+
+
+

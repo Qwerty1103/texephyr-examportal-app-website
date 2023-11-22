@@ -1,0 +1,55 @@
+.FFFContainer
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Chakra Petch';
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.FFFQuestionContainer
+{
+    background: white;
+    height: 70vh;
+    gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 70vw;
+    border-radius: 10px;
+}
+
+.timerContainerClass
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.FFFSubmitBtn
+{
+    width: 8vw;
+    font-size: 15px;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#FFFmainTimerContainer
+{
+    display: flex;
+    margin-bottom: 5vh;
+    gap: 1vw;
+    color: white;
+    align-items: center;
+}

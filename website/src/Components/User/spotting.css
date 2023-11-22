@@ -1,0 +1,11 @@
+.herosection-spot div canvas{
+    height: 100vh;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .herosection-spot div canvas {
+        height: 70vh;
+        display: none!important;
+    }
+  }

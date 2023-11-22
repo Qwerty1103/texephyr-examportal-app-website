@@ -1,0 +1,144 @@
+#ModelBuilderMainContainer{
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.MCQquestionContainer {
+  margin: 1vw;
+  padding: 1vw;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  position: absolute;
+  width: 60%;
+  border: none!important;
+}
+
+#mainTimerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Timer-SubContainer {
+  padding: 1vw;
+}
+
+#MCQModelBuilderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* top: 40%; */
+}
+
+
+.bridgeElements{
+  padding: 12px!important;
+  padding-top: 4px!important;
+  padding-bottom: 6px!important;
+  border-radius: 30px;
+  background-color: white;
+  border: none!important;
+  margin: 5px;
+}
+
+.bridgeElements:hover{
+  cursor:pointer;
+}
+
+.buttonContainer{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-top: 5vh;
+}
+
+.buttonContainer > button{
+  margin: 10px;
+}
+.optionsContainer > label{
+  margin: 5px;
+}
+
+.nxtBtn {
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 10px;
+  padding: 12px;
+  transition: 0.2s;
+  align-self: center;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.nxtBtn span {
+  position: relative;
+  z-index: 1;
+}
+.nxtBtn i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.nxtBtn:hover i::before {
+  width: 15px;
+  left: 20%;
+  animation: move 3s infinite;
+}
+
+.nxtBtn:hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+
+.disabledBtn
+{
+  background: rgb(171, 171, 171);
+}
+
+.enabledBtn
+{
+  background: rgb(0, 0, 0);
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+  50% {
+    box-shadow: 0 0 25px #00ff2a;
+  }
+  100% {
+    box-shadow: #27272c;
+  }
+}
+
+.optionsContainer > label > input{
+  margin-right: 10px;
+}

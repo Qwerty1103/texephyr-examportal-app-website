@@ -1,0 +1,218 @@
+/* test */
+
+.eventsDesc::-webkit-scrollbar {
+  display: none;
+}
+
+.eventsDesc{
+  background: transparent;
+  height: 80vh;
+  width: 80vw;
+  color: white;
+  font-family: 'Chakra Petch';
+}
+
+.eventDescContent{
+  /* margin-left: 150px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.eventDescHead
+{
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+
+.eventHeadCont
+{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    justify-content: center;
+}
+
+.eventDetailsContainer
+{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  position: absolute;
+  width: 40vw;
+  height: 70vh;
+  left: 50px;
+  top: 10vh;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;  
+  box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+.rectangle-136
+{
+  position: absolute;
+  width: 500px;
+  height: 330px;
+  left: 55vw;
+  top: 100px;
+  background: #4e4e4e;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #4e4e4e;
+}
+
+.rectangle-137
+{
+  position: absolute;
+  width: 450px;
+  height: 300px;
+  left: 50vw;
+  top: 30vh;
+  background: #ffffff;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px 5px #ffffff;
+}
+
+.eventDescName
+{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 50px;
+  color: #d005b2;
+  /* color: rgba(0, 0, 0, 0.83); */
+}
+
+.eventDesc
+{
+  height: 25vh; 
+  overflow-y: scroll;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* color: #000000; */
+  margin-top: 16px;
+  margin-left: 50px;
+  margin-right: 54px;
+}
+
+.eventDesc::-webkit-scrollbar {
+  display: none;
+}
+
+.addCart-btn
+{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 770px;
+  top: 76vh;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #d005b2;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.addCart-btn:hover{
+  background-color: rgb(24, 24, 24);
+  color: #d005b2;
+}
+
+.eventDetails
+{
+  font-size: 40px;
+  font-weight: 700;
+  color: #d005b2;
+}
+
+.eventDetailsContent
+{
+  height: 70vh;
+  font-size: 18px;
+  overflow-y: scroll;
+}
+
+.eventDetailsContent::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	background-color: #ffffff;
+}
+
+.eventDetailsContent::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #ffffff;
+}
+
+.eventDetailsContent::-webkit-scrollbar-thumb
+{
+	background-color: #d005b2;
+}
+
+.eventDescContentMobile
+{
+  display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+  .addBtncontainerMobile
+  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+  }
+
+  .eventDescContentMobile
+  {
+    display: unset;
+  }
+
+  .rodal-close {
+    right: 3vw;
+  }
+
+  .descUp
+  {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+  }
+
+  .eventDescContent
+  {
+    display: none;
+  }
+
+  .eventDetailsContent
+  {
+    overflow-x: hidden;
+  }
+  
+  .eventDetails {
+    font-size: 20px;
+  }
+
+  .eventDescName
+  {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #d005b2;
+    /* color: rgba(0, 0, 0, 0.83); */
+  }
+}

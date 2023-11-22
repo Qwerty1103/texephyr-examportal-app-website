@@ -1,0 +1,81 @@
+.p-y-5 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.pt-6 {
+    padding-top: 5rem;
+}
+
+.section-game {
+    display: block;
+    margin: 0;
+    padding: 120px 0 0 0;
+}
+
+.bg-img {
+    background-image: url("../images/game/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.img-width {
+    max-width: 90%;
+}
+
+.ufo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    transform: translate(6%, -62%);
+}
+
+.rocket {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    transform: translate(4%, -29%);
+}
+
+.ellipse {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    transform: translate(0%, 15%);
+}
+
+
+.playnow {
+    display: inline-block;
+    padding: 2.5rem 0;
+}
+
+.playnow-img {
+    max-width: 180px;
+}
+
+.game-margin-bottom-sm {
+    margin-bottom: 8rem;
+}
+
+.game-heading {
+    line-height: 1.5 !important;
+    color: rgb(238, 238, 238) !important;
+    font-weight: bold !important;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .game-heading{
+        font-size: 32px !important;
+    }
+
+    .img-width {
+        max-width: 100%;
+    }
+    
+}

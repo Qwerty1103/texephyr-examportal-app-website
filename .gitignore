@@ -1,0 +1,22 @@
+node_modules
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+Constants.js
+website/src/Components/Constants.js
+
+# macOS
+.DS_Store
+app/components/login/Constants.js
+website/src/Components/Constants.js
+website/src/Components/Constants.js
+
+backend/config.env

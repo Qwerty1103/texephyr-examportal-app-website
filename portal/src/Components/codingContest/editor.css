@@ -1,0 +1,84 @@
+#mainProblemStatementContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+#exampleContainer {
+    color: black;
+}
+
+.btn-container>button {
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.submit-btn-code {
+    width: 250px;
+    align-self: center;
+    margin: 15px;
+    border: red 2px solid;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.submit-btn-code:hover {
+    background-color: rgb(216, 45, 45);
+}
+
+#selectorContainer {
+    margin: 10px;
+}
+
+.ContainerBtn {
+    border: none;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#resultContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+}
+
+.resultSection {
+    width: 90%;
+}
+
+.resultCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.compOut
+{
+    width: 90%;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.compOut::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	background-color: #ffffff;
+}
+
+.compOut::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #ffffff;
+}
+
+.compOut::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
